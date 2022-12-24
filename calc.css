@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+}
+body{
+    background-color: #ddd;
+    min-height: 100vh;
+}
+main{
+    margin-top: 5%;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2rem;
+    background-color: #040f14;
+    color: #fff;
+}
+.wrapper{
+    display: grid;
+    place-items: center;
+    margin-top: .5rem;
+}
+.box{
+    padding: 5px;
+    background-color: rgb(117, 111, 111);
+    height: auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 5px 15px 25px rgb(0, 0, 0, 0.5);
+}
+table{
+    row-gap: 20px;
+}
+th{
+    height: 50px;
+    margin: 50px;
+    background-color: #040f14;
+    color: #fff;
+}
+td{
+    width: 140px;
+    margin: 50px;
+    border: 1px solid #040f14;
+    color: #040f14;
+    text-align: center;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    font-weight: bolder;
+    background-color: #fff;
+    color: #2d373b;
+    border-radius: 5px;
+    padding: .4rem;
+}
+option{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 50px;
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5px;
+}
+.calc-btn{
+    background: #fff;
+    color: #040f14;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 5px 15px 25px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.btn{
+    font-size: 1rem;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 5px 15px 25px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    background-color: rgb(187, 48, 48);
+}
+
+.result{
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    padding: .2rem 20px;
+    
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 5px 15px 25px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+
